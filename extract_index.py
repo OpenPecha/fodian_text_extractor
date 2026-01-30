@@ -7,6 +7,7 @@ from pymongo import MongoClient
 from datetime import date
 import json
 import os
+import re
 
 # MongoDB connection string
 CONNECTION_STRING = "mongodb+srv://samdup:EvSo4O19mOmBSlXI@cluster0.c0n0ihj.mongodb.net/"
@@ -72,6 +73,7 @@ def get_texts_by_index_title(index_title):
         segment_annotation, base_text, first_segment = parse_text_chapters(doc['chapter'])
         language = "zh" if doc['actualLanguage'] == "he" else doc['actualLanguage']
         version_title = doc['versionTitle']
+        version_title = re.sub(r'\s*\[[^\]]*\]', '', version_title).strip()
         title[language] = version_title
 
         # only for root and translation

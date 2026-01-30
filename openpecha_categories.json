@@ -1,0 +1,152 @@
+[
+    {
+      "children": [],
+      "id": "rw8oWUd1WtwqeD2x0ZMSm",
+      "parent_id": null,
+      "title": {
+        "bo": "མདོ་སྡེ།",
+        "en": "Discourses",
+        "zh": "經部"
+      }
+    },
+    {
+      "children": [],
+      "id": "D91TlgRqpZGCOfywaHRvV",
+      "parent_id": null,
+      "title": {
+        "bo": "ཤེར་ཕྱིན།",
+        "en": "Perfection of Wisdom",
+        "zh": "般若"
+      }
+    },
+    {
+      "children": [],
+      "id": "kj8dljKGdBUuL4GkkVXbB",
+      "parent_id": null,
+      "title": {
+        "bo": "དབུ་མ།",
+        "en": "Middle Way",
+        "zh": "中觀"
+      }
+    },
+    {
+      "children": [],
+      "id": "dDaSsoUHtVMbqs1V6Nolb",
+      "parent_id": null,
+      "title": {
+        "bo": "སེམས་ཙམ།",
+        "en": "Mind-only Treatises",
+        "zh": "唯識"
+      }
+    },
+    {
+      "children": [],
+      "id": "iGzbJ0D6zdyccIv2gnXeI",
+      "parent_id": null,
+      "title": {
+        "bo": "མངོན་པ།",
+        "en": "Systematic Treatises",
+        "zh": "阿毘達磨"
+      }
+    },
+    {
+      "children": [],
+      "id": "yteMP9CDaB50HjkAfiPQg",
+      "parent_id": null,
+      "title": {
+        "bo": "རྒྱུད་སྡེ།",
+        "en": "Tantras",
+        "zh": "密續"
+      }
+    },
+    {
+      "children": [],
+      "id": "ydyRYjywMRqObgphDY7tQ",
+      "parent_id": null,
+      "title": {
+        "bo": "ཚད་མ།",
+        "en": "Logic",
+        "zh": "因明邏輯"
+      }
+    },
+    {
+      "children": [],
+      "id": "dJpr4gMF72E4UpCnJ84sh",
+      "parent_id": null,
+      "title": {
+        "bo": "ཞལ་འདོན།",
+        "en": "Liturgy",
+        "zh": "實修儀軌"
+      }
+    },
+    {
+      "children": [],
+      "id": "ng52I3dhJn7BmNiH2fxay",
+      "parent_id": null,
+      "title": {
+        "bo": "བློ་སྦྱོང་དང་བསླབ་བྱ།",
+        "en": "Mind Trainings and Advices",
+        "zh": "修身"
+      }
+    },
+    {
+      "children": [],
+      "id": "v9L6V602pSzwFquYhJImq",
+      "parent_id": null,
+      "title": {
+        "bo": "ལོ་རྒྱུས་དང་སྒྲུང་།",
+        "en": "History and Stories",
+        "zh": "歷史故事"
+      }
+    },
+    {
+      "children": [],
+      "id": "9UBgNbGvHmV7w6dawmZGy",
+      "parent_id": null,
+      "title": {
+        "bo": "གསོ་བ་རིག་པ།",
+        "en": "Medicine",
+        "zh": "醫方明"
+      }
+    },
+    {
+      "children": [],
+      "id": "iRPrnRONBK20qn1Qs1Dbu",
+      "parent_id": null,
+      "title": {
+        "bo": "འདུལ་བ།",
+        "en": "Monastic Rules",
+        "zh": "律典"
+      }
+    },
+    {
+      "children": [],
+      "id": "fez3f7Nha5JBIdHh2yE8s",
+      "parent_id": null,
+      "title": {
+        "bo": "རིག་གནས།",
+        "en": "Linguistics Treatises",
+        "zh": "佛教語言學論典"
+      }
+    },
+    {
+      "children": [],
+      "id": "sINrgvK11RMzQ9Egls8Ni",
+      "parent_id": null,
+      "title": {
+        "bo": "སྣ་ཚོགས།",
+        "en": "Miscenaleous",
+        "zh": "其他"
+      }
+    },
+    {
+      "children": [],
+      "id": "fY8KIB6lGoq4WpONoZVxQ",
+      "parent_id": null,
+      "title": {
+        "bo": "ལམ་རིམ།",
+        "en": "Stages of the Path",
+        "zh": "道次第"
+      }
+    }
+  ]

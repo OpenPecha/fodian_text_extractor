@@ -10,12 +10,12 @@
           "bo": "བསླབ་པ་གསུམ་གྱི་མདོ་ཞེས་བྱ་བ། [bo]"
         },
         "language": "bo",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
-        "bdrc": ""
+        "date": "2026-01-30",
+        "bdrc": "WA0RK0282"
       },
       "segment_annotation": [
         {
@@ -184,11 +184,11 @@
           "zh": "三學經"
         },
         "language": "zh",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
+        "date": "2026-01-30",
         "bdrc": ""
       },
       "segment_annotation": [

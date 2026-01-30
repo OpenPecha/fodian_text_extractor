@@ -10,12 +10,12 @@
           "bo": "རྒྱལ་པོ་ལ་གདམས་པའི་མདོ། [bo]"
         },
         "language": "bo",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
-        "bdrc": ""
+        "date": "2026-01-30",
+        "bdrc": "WA0RK0214"
       },
       "segment_annotation": [
         {
@@ -586,11 +586,11 @@
           "zh": "教誡拔嗟國優填王大乘經"
         },
         "language": "zh",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
+        "date": "2026-01-30",
         "bdrc": ""
       },
       "segment_annotation": [

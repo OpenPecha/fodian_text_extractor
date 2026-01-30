@@ -10,12 +10,12 @@
           "bo": "འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་ཞུས་པ་ཆོས་བདུན་པ་ཞེས་བྱ་བ་ཐེག་པ་ཆེན་པོའི་མདོ། [bo]"
         },
         "language": "bo",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
-        "bdrc": ""
+        "date": "2026-01-30",
+        "bdrc": "WA0RK0150"
       },
       "segment_annotation": [
         {
@@ -292,11 +292,11 @@
           "zh": "聖觀自在菩薩所問七法大乘經"
         },
         "language": "zh",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
+        "date": "2026-01-30",
         "bdrc": ""
       },
       "segment_annotation": [

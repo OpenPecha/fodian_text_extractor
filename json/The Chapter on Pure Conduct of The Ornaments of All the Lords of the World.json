@@ -10,12 +10,12 @@
           "bo": "སངས་རྒྱས་ཕལ་པོ་ཆེ་ཞེས་བྱ་བ་ཤིན་ཏུ་རྒྱས་པ་ཆེན་པོའི་མདོ། [bo]"
         },
         "language": "bo",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
-        "bdrc": ""
+        "date": "2026-01-30",
+        "bdrc": "WA0RK0044"
       },
       "segment_annotation": [
         {
@@ -1426,11 +1426,11 @@
           "zh": "《華嚴經》〈淨行品〉(佛馱跋陀羅譯)"
         },
         "language": "zh",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
+        "date": "2026-01-30",
         "bdrc": ""
       },
       "segment_annotation": [

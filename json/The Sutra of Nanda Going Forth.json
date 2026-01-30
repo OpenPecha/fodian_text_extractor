@@ -10,12 +10,12 @@
           "bo": "དགའ་བོ་རབ་ཏུ་བྱུང་བའི་མདོ། [bo]"
         },
         "language": "bo",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
-        "bdrc": ""
+        "date": "2026-01-30",
+        "bdrc": "WA0RK0328"
       },
       "segment_annotation": [
         {
@@ -1162,11 +1162,11 @@
           "zh": "難陀出家經"
         },
         "language": "zh",
-        "category": "rw8oWUd1WtwqeD2x0ZMSm",
+        "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
         "license": "CC0",
         "copyright": "Public Domain",
         "contributions": [],
-        "date": "",
+        "date": "2026-01-30",
         "bdrc": ""
       },
       "segment_annotation": [

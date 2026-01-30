@@ -4,6 +4,7 @@ Extract documents from MongoDB 'index' collection that have both
 """
 
 from pymongo import MongoClient
+from datetime import date
 import json
 import os
 
@@ -84,11 +85,11 @@ def get_texts_by_index_title(index_title):
                 "colophon": first_segment,
                 "incipit_title": title,
                 "language": language,
-                "category": "rw8oWUd1WtwqeD2x0ZMSm",
+                "category_id": "rw8oWUd1WtwqeD2x0ZMSm",
                 "license": "CC0", 
                 "copyright": "Public Domain",
                 "contributions": [],
-                "date": "",
+                "date": date.today().isoformat(),
                 "bdrc": "",
             },
             "segment_annotation": segment_annotation,

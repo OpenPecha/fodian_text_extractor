@@ -28,7 +28,12 @@ def extract_discourse_root_texts(client, database_name="chinese"):
     # Query for documents containing both categories
     query = {
         "categories": {
-            "$all": ["Discourses", "Root text"]
+            "$all": [
+                "Madhyamaka",
+                "Prasangika",
+                "Bodhicaryavatara",
+                "Root text"
+            ]
         }
     }
     
@@ -46,7 +51,8 @@ def get_index_discourses_root_texts():
         
         for doc in documents:
             categories = doc.get('categories', [])
-            list_text.append(categories[2])
+            list_text.append(categories[-1])
+            print(categories[-1])
         return list_text
         
     except Exception as e:
@@ -108,12 +114,12 @@ def get_texts_by_index_title(index_title):
         json_payload["translations"][index]["target_annotation"] = target_annotation
         json_payload["translations"][index]["alignment_annotation"] = alignment_annotation
 
-        filtered_segment_annotation = [item for item in translation["segment_annotation"] if item["span"]["end"] != 0]
+        filtered_segment_annotation = [item for item in translation["segment_annotation"] if item["span"]["start"] != item["span"]["end"]]
         json_payload["translations"][index]["segment_annotation"] = filtered_segment_annotation
 
     # Write json_payload to file
-    os.makedirs("json", exist_ok=True)
-    output_filename = f"json/{index_title.replace('/', '_')}.json"
+    os.makedirs("json/Madhyamaka", exist_ok=True)
+    output_filename = f"json/Madhyamaka/{index_title.replace('/', '_')}.json"
     with open(output_filename, 'w', encoding='utf-8') as f:
         json.dump(json_payload, f, ensure_ascii=False, indent=2)
     print(f"Written to {output_filename}")
@@ -122,7 +128,7 @@ def get_allignment_annotation(root_annotation, translation_annotation):
     alignment_annotation = []
     target_annotation = []
     for root_span, translation_span in zip(root_annotation, translation_annotation):
-        if translation_span['span']['end'] == 0:
+        if translation_span['span']['end'] == translation_span['span']['start']:
             continue
         alignment_annotation.append({
             "start": translation_span['span']['start'],
@@ -141,6 +147,9 @@ def get_segment_annotation(chapter_flat):
     for segment in chapter_flat:
         start = pos
         end = pos + len(segment)
+        # if end == start: 
+        #     start = 0
+        #     end = 0
         annotation.append({
             "span": {
                 "start": start,
@@ -152,8 +161,9 @@ def get_segment_annotation(chapter_flat):
 
 def parse_text_chapters(chapters):
     chapter_flat = [x for sub in chapters for x in sub]
-    segment_annotation = get_segment_annotation(chapter_flat)
-    base_text = "".join(chapter_flat)
+    cleaned_data = [re.sub(r'\s*<br\s*/?>\s*', '', item).strip() for item in chapter_flat]
+    segment_annotation = get_segment_annotation(cleaned_data)
+    base_text = "".join(cleaned_data)
 
     return segment_annotation, base_text, chapter_flat[0]
 
